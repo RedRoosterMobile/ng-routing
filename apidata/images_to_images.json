@@ -1,0 +1,79 @@
+{
+  "id": 30242,
+  "position": 2,
+  "kind": "bonus",
+  "title": "Was ist gut für die Umwelt und was ist schlecht? Entscheide dich.",
+  "call_to_action": "Ziehe die Bilder auf die richtige Kategorie.",
+  "intermediate_feedback": null,
+  "layout": "images_to_images",
+  "segment_start_time": 233,
+  "segment_end_time": 293,
+  "version": 1,
+  "task": {
+    "id": 321902
+  },
+  "hints": [
+    {
+      "id": 321909,
+      "text": "Recycling wird auch als Wertstoffkreislauf bezeichnet. Er wird durch einen Kreis aus Pfeilen symbolisiert."
+    }
+  ],
+  "solution": {
+    "id": 321903,
+    "text": "Du kannst selbst viel für die Umwelt tun. Du kannst das Fahrrad oder den Bus nehmen anstatt, bei deinen Eltern im Auto mitzufahren. Außerdem kannst du den Müll trennen, damit dieser recycelt werden kann. Und auch die Anlage eines Kompostes schützt die Umwelt, indem er Biomüll in kostenlose Blumenerde verwandelt. \n\nKunststoffe werden hauptsächlich aus Erdöl hergestellt. Der Abbau ist ein großer Eingriff in die Natur und birgt Gefahren beim Austritt des Öls. Kunststoffe zersetzen sich nicht oder nur sehr langsam. Sie können also nicht wie Biomüll auf dem Kompost verrotten. \n\nAuto- und Industrieabgase sind sehr schädlich für die Natur und auch uns Menschen. \n\nAber auch die industrielle Produktion von Fleisch ist für die Umwelt schädlich. Es werden Unmengen an Futtermitteln auf den Äckern produziert und die Kühe selbst produzieren das Treibhausgas Methan. ",
+    "asset_type": "image",
+    "attachment_url": "https://dgreov1d9cjrb.cloudfront.net/exercise_parts/solutions/attachments/321903/rectangle/Rinder_mit_Anbindest%C3%A4lle.jpg?1486471310"
+  },
+  "drawers": [
+    {
+      "id": 321904,
+      "asset_type": "image",
+      "attachment_url": "drawer_image.jpg"
+    },
+    {
+      "id": 321905,
+      "asset_type": "image",
+      "attachment_url": "drawer_image.jpg"
+    }
+  ],
+  "items": [
+    {
+      "id": 321906,
+      "asset_type": "image",
+      "attachment_url": "item_image.jpg",
+      "drawer_id": 321904
+    },
+    {
+      "id": 321908,
+      "asset_type": "image",
+      "attachment_url": "item_image.jpg",
+      "drawer_id": 321904
+    },
+    {
+      "id": 321910,
+      "asset_type": "image",
+      "attachment_url": "item_image.jpg",
+      "drawer_id": 321904
+    },
+    {
+      "id": 321911,
+      "asset_type": "image",
+      "attachment_url": "item_image.jpg",
+      "drawer_id": 321905
+    },
+    {
+      "id": 321912,
+      "asset_type": "image",
+      "attachment_url": "item_image.jpg",
+      "drawer_id": 321905
+    },
+    {
+      "id": 321914,
+      "asset_type": "image",
+      "attachment_url": "item_image.jpg",
+      "drawer_id": 321905
+    }
+  ],
+  "type": "items_to_drawers",
+  "scientific": false
+}

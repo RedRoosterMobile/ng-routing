@@ -1,0 +1,96 @@
+{
+  "id": 30501,
+  "position": 3,
+  "kind": "normal",
+  "title": "Wo leben diese Tiere? Entscheide dich.",
+  "call_to_action": "Ordne die Tiere zur passenden Kategorie.",
+  "intermediate_feedback": null,
+  "layout": "images_to_words",
+  "segment_start_time": 298,
+  "segment_end_time": 333,
+  "version": 1,
+  "task": {
+    "id": 324919,
+    "text": "Erstelle dein eigenes Tierlexikon und sortiere diese Tiere in die entsprechende Kategorie.",
+    "asset_type": "image",
+    "attachment_url": "https://dgreov1d9cjrb.cloudfront.net/exercise_parts/tasks/attachments/324919/rectangle/B%C3%BCcherstapel.jpg?1488059353"
+  },
+  "hints": [
+    {
+      "id": 324932,
+      "text": "Kleinere Haustiere halten viele Menschen im Käfig.",
+      "asset_type": "image",
+      "attachment_url": "https://dgreov1d9cjrb.cloudfront.net/exercise_parts/hints/attachments/324932/rectangle/Vogelk%C3%A4fig.jpg?1488059885"
+    }
+  ],
+  "solution": {
+    "id": 324920,
+    "text": "Um ein Tierlexikon zu erstellen, kannst du die Tiere, die du beschreibst, auch zu Kategorien zuordnen. Du kannst deine Kategorien natürlich auch anders nennen.\n* Der Hund und das Meerschweinchen sind Haustiere, ebenso wie der Wellensittich.\n* Tiere, die im Meer leben, sind Fische, Wale, Haie und auch Krebstiere oder Quallen.\n* Tiere, die im Wald leben, sind zum Beispiel Rehe, Füchse, Wildschweine oder auch Marder."
+  },
+  "drawers": [
+    {
+      "id": 324921,
+      "text": "Tiere des Waldes"
+    },
+    {
+      "id": 324922,
+      "text": "Haustiere"
+    },
+    {
+      "id": 324923,
+      "text": "Tiere des Meeres"
+    }
+  ],
+  "items": [
+    {
+      "id": 324924,
+      "asset_type": "image",
+      "attachment_url": "item_image.jpg",
+      "drawer_id": 324921
+    },
+    {
+      "id": 324925,
+      "asset_type": "image",
+      "attachment_url": "item_image.jpg",
+      "drawer_id": 324923
+    },
+    {
+      "id": 324926,
+      "asset_type": "image",
+      "attachment_url": "item_image.jpg",
+      "drawer_id": 324922
+    },
+    {
+      "id": 324927,
+      "asset_type": "image",
+      "attachment_url": "item_image.jpg",
+      "drawer_id": 324921
+    },
+    {
+      "id": 324928,
+      "asset_type": "image",
+      "attachment_url": "item_image.jpg",
+      "drawer_id": 324921
+    },
+    {
+      "id": 324929,
+      "asset_type": "image",
+      "attachment_url": "item_image.jpg",
+      "drawer_id": 324923
+    },
+    {
+      "id": 324930,
+      "asset_type": "image",
+      "attachment_url": "item_image.jpg",
+      "drawer_id": 324922
+    },
+    {
+      "id": 324931,
+      "asset_type": "image",
+      "attachment_url": "item_image.jpg",
+      "drawer_id": 324922
+    }
+  ],
+  "type": "items_to_drawers",
+  "scientific": false
+}

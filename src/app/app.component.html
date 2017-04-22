@@ -1,7 +1,9 @@
-<h1>
-  {{title}}
-</h1>
-<a routerLink="/movies">Movies</a>
-<a routerLink="/characters">Characters</a>
+<md-toolbar color="primary">
+  <span>{{title}}</span>
+  <md-toolbar-row>
+    <button md-raised-button color="accent" routerLink="/movies">Movies</button>
+    <button md-raised-button color="accent" routerLink="/characters">Characters</button>
+  </md-toolbar-row>
+</md-toolbar>
 
 <router-outlet></router-outlet>

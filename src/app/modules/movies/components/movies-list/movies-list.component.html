@@ -1,6 +1,18 @@
-<h2>Star Wars Movies</h2>
-<ul>
+<md-toolbar color="secondary">
+  <span>Star Wars Movies</span>
+</md-toolbar>
+<!--<ul>
   <li *ngFor="let movie of movies">
     <app-movie [movie]="movie"></app-movie>
   </li>
 </ul>
+https://github.com/sofatutor/exercises-prototype-react/tree/first-prototype
+-->
+<md-list>
+  <md-list-item *ngFor="let movie of movies">
+    <h3 md-line>{{movie.title}}</h3>
+    <p md-line>Director: {{movie.director}}</p>
+    <p md-line class="crawl">{{movie.opening_crawl}}</p>
+    <p md-line>{{movie.release_date | date:'fullDate' | uppercase}}</p>
+  </md-list-item>
+</md-list>

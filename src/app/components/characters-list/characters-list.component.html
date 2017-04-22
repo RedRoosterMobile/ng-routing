@@ -1,8 +1,20 @@
-<p>
-  our characters-list works!
-</p>
-<ul>
+<md-toolbar color="secondary">
+  <span>Star Wars Characters</span>
+</md-toolbar>
+<!--<ul>
   <li *ngFor="let character of characters">
     <app-character [character]="character"></app-character>
   </li>
-</ul>
+</ul>-->
+<md-list>
+  <md-list-item *ngFor="let character of characters">
+    <h3 md-line>{{character.name}}</h3>
+    <p md-line>Height: {{character.height}}</p>
+    <p md-line>Weight: {{character.weight}}</p>
+    <p md-line>Hair: {{character.hair_color}}</p>
+    <p md-line>Skin: {{character.skin_color}}</p>
+    <p md-line>Eye: {{character.eye_color}}</p>
+    <p md-line>Birth: {{character.birth_year}}</p>
+    <p md-line>Eye: {{character.gender}}</p>
+  </md-list-item>
+</md-list>

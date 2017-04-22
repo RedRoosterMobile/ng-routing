@@ -1,0 +1,105 @@
+{
+  "id": 27157,
+  "position": 2,
+  "kind": "bonus",
+  "title": "Was unterschied West- und Ost-Berlin voneinander? Ordne zu.",
+  "call_to_action": "Ziehe die Wörter jeweils zu den richtigen Städten.",
+  "intermediate_feedback": null,
+  "layout": "words_to_paragraphs",
+  "segment_start_time": 54,
+  "segment_end_time": 90,
+  "version": 2,
+  "task": {
+    "id": 287437
+  },
+  "hints": [
+    {
+      "id": 290512,
+      "text": "Die Stasi ist der Staatssicherheitsdienst der DDR."
+    },
+    {
+      "id": 292074,
+      "text": "*Trabbi* ist die Abkürzung für *Trabant*. Der Trabant ist ein Pkw, der von den Menschen in Ostdeutschland gefahren wurde. "
+    }
+  ],
+  "solution": {
+    "id": 287438,
+    "text": "* Als Deutschland **geteilt** war, herrschten in den beiden Ländern zum Teil sehr **unterschiedliche Verhältnisse**. Während die Menschen in der BRD und somit in Westdeutschland und West-Berlin viele **Freiheiten** genossen, durften die Menschen in der DDR nicht einmal reisen wohin sie wollten.\n\n* Die DDR war der Siegermacht **Sowjetunion** zugeteilt. Es herrschte **Sozialismus**, mit dem viele Menschen unglücklich waren. Bestimmte Waren konnte man nur schwer bekommen - auf ein Auto, den berühmten **Trabbi**, warteten Familien manchmal jahrelang. \n\n* Außerdem war in der DDR die **Stasi** ziemlich aktiv. Das war die Staatssicherheit, der **Geheimdienst** der DDR. Sie versuchten herauszufinden, wer sich **kritisch** gegenüber der DDR äußerte und bestrafte dieses Vergehen hart.\n\n* In der BRD wuchs die **Wirtschaft** unterdessen schneller. Hier haben die Siegermächte **USA, Großbritannien** und **Frankreich** Geld investiert und die BRD unterstützt.",
+    "asset_type": "image",
+    "attachment_url": "https://dgreov1d9cjrb.cloudfront.net/exercise_parts/solutions/attachments/287438/rectangle/Berlinkarte_Ost_und_West.jpg?1468076473"
+  },
+  "drawers": [
+    {
+      "id": 290497,
+      "text": "Ost-Berlin"
+    },
+    {
+      "id": 290498,
+      "text": "West-Berlin"
+    }
+  ],
+  "items": [
+    {
+      "id": 290499,
+      "text": "BRD",
+      "drawer_id": 290498
+    },
+    {
+      "id": 290500,
+      "text": "DDR",
+      "drawer_id": 290497
+    },
+    {
+      "id": 290501,
+      "text": "Sozialismus",
+      "drawer_id": 290497
+    },
+    {
+      "id": 290502,
+      "text": "Reisefreiheit",
+      "drawer_id": 290498
+    },
+    {
+      "id": 290503,
+      "text": "Ostmark",
+      "drawer_id": 290497
+    },
+    {
+      "id": 290504,
+      "text": "Westmark",
+      "drawer_id": 290498
+    },
+    {
+      "id": 290506,
+      "text": "Stasi",
+      "drawer_id": 290497
+    },
+    {
+      "id": 290507,
+      "text": "Trabbi",
+      "drawer_id": 290497
+    },
+    {
+      "id": 290508,
+      "text": "Sowjetunion",
+      "drawer_id": 290497
+    },
+    {
+      "id": 290509,
+      "text": "USA",
+      "drawer_id": 290498
+    },
+    {
+      "id": 290510,
+      "text": "Großbritannien",
+      "drawer_id": 290498
+    },
+    {
+      "id": 290511,
+      "text": "Frankreich",
+      "drawer_id": 290498
+    }
+  ],
+  "type": "items_to_drawers",
+  "scientific": false
+}

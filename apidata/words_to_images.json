@@ -1,0 +1,112 @@
+{
+  "id": 16710,
+  "position": 2,
+  "kind": "bonus",
+  "title": "Vergleiche das Lichtmikroskop mit dem Stereomikroskop.",
+  "call_to_action": "Ziehe die Begriffe zum entsprechenden Mikroskop.",
+  "intermediate_feedback": null,
+  "layout": "words_to_images",
+  "segment_start_time": 14,
+  "segment_end_time": 67,
+  "version": 4,
+  "task": {
+    "id": 170474,
+    "text": "Das Lichtmikroskop kennst du ja mittlerweile. Man kann es am besten anhand des Objektivrevolvers, an dem sich beim Lichtmikroskop die Objektive befinden, erkennen. Stereomikroskope besitzen keinen Objektivrevolver, ihre beiden Objektive sind fest. //\nWas unterscheidet die beiden Mikroskopformen noch voneinander?",
+    "asset_type": "image",
+    "attachment_url": "https://dgreov1d9cjrb.cloudfront.net/exercise_parts/tasks/attachments/170474/rectangle/Mikroskop.jpg?1468035264"
+  },
+  "hints": [
+    {
+      "id": 173612,
+      "text": "Das Stereomikroskop kann nicht so stark vergrößern wie das Lichtmikroskop. Dafür kann man mit ihm Dinge räumlich, also dreidimensional sehen. Beim Lichtmikroskop müssen Objekte dagegen platt, also zweidimensional sein."
+    },
+    {
+      "id": 173613,
+      "text": "Aufgrund der zwei getrennten Strahlengänge kann man mit dem Stereomikroskop Objekte räumlich wahrnehmen."
+    },
+    {
+      "id": 173614,
+      "text": "Da ein Lichtmikroskop viel stärker vergrößern kann als ein Stereomikroskop, kann man mit ihm sogar einzelne Zellen oder die winzigen Pollen von Blüten gut erkennen."
+    }
+  ],
+  "solution": {
+    "id": 170475,
+    "text": "Das **Lichtmikroskop** wird meistens in der Schule genutzt, um z. B. **Zellen** von Blättern, Pantoffeltierchen oder Blütenpollen zu mikroskopieren. Dafür ist eine **starke Vergrößerung** nötig. Die meisten Schulmikroskope können 400-fach (400x) vergrößern. //\nDas Licht gelangt durch **einen** Strahlengang in unser Auge, wir sehen also durch beide Okulare das gleiche Bild.\n\nAnders sieht das beim **Stereomikroskop** aus. Dort haben wir **zwei** Strahlengänge und sehen deshalb das Objekt durch beide Okulare aus leicht veränderten Winkeln. Genauso wie beim normalen Sehen, ohne Mikroskop oder Lupe. Deshalb können wir mit diesem Mikroskop Objekte **dreidimensional** sehen. Wir können also ganze Insekten oder Blüten unter die Objektive legen – bei einer maximalen Vergrößerung von 100x werden aus Insekten Riesen und wir können uns z. B. die Härchen an den Beinen sehr genau anschauen."
+  },
+  "drawers": [
+    {
+      "id": 173579,
+      "asset_type": "image",
+      "attachment_url": "drawer_image.jpg"
+    },
+    {
+      "id": 173582,
+      "asset_type": "image",
+      "attachment_url": "drawer_image.jpg"
+    }
+  ],
+  "items": [
+    {
+      "id": 173588,
+      "text": "3D-Eindruck",
+      "drawer_id": 173582
+    },
+    {
+      "id": 173591,
+      "text": "2D-Bild",
+      "drawer_id": 173579
+    },
+    {
+      "id": 173593,
+      "text": "ein Lichtstrahl",
+      "drawer_id": 173579
+    },
+    {
+      "id": 173594,
+      "text": "zwei Lichtstrahlen",
+      "drawer_id": 173582
+    },
+    {
+      "id": 173596,
+      "text": "Objektive beweglich",
+      "drawer_id": 173579
+    },
+    {
+      "id": 173597,
+      "text": "Objektive fest",
+      "drawer_id": 173582
+    },
+    {
+      "id": 173600,
+      "text": "Vergrößerung < 100x",
+      "drawer_id": 173582
+    },
+    {
+      "id": 173604,
+      "text": "Vergrößerung < 400x",
+      "drawer_id": 173579
+    },
+    {
+      "id": 173605,
+      "text": "z. B. Zellen",
+      "drawer_id": 173579
+    },
+    {
+      "id": 173606,
+      "text": "z. B. Insekten",
+      "drawer_id": 173582
+    },
+    {
+      "id": 173607,
+      "text": "z. B. Blüten",
+      "drawer_id": 173582
+    },
+    {
+      "id": 173608,
+      "text": "z. B. Blütenpollen",
+      "drawer_id": 173579
+    }
+  ],
+  "type": "items_to_drawers",
+  "scientific": true
+}
