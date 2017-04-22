@@ -1,0 +1,40 @@
+// Bootstrap overrides
+//
+// Copy variables from `_variables.scss` to this file to override default values
+// without modifying source files.
+
+$body-bg:    yellow;
+$body-color: hotpink;
+
+// https://v4-alpha.getbootstrap.com/layout/grid/
+// https://jonathanmh.com/bootstrap-4-grid-only-and-sass-with-gulp/
+
+$grid-columns:      12;
+$grid-gutter-width-base: 30px;
+
+$grid-gutter-widths: (
+  xs: $grid-gutter-width-base, // 30px
+  sm: $grid-gutter-width-base, // 30px
+  md: $grid-gutter-width-base, // 30px
+  lg: $grid-gutter-width-base, // 30px
+  xl: $grid-gutter-width-base  // 30px
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  // Small screen / phone
+  sm: 576px,
+  // Medium screen / tablet
+  md: 768px,
+  // Large screen / desktop
+  lg: 992px,
+  // Extra large screen / wide desktop
+  xl: 1200px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+);
