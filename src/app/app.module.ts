@@ -6,7 +6,9 @@ import { RouterModule } from '@angular/router';
 
 // import { AnimationsModule } from '@angular/animations';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MaterialModule } from '@angular/material';
+// import { MaterialModule } from '@angular/material';
+
+//import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
 import 'hammerjs';
 
@@ -29,7 +31,8 @@ import { PageNotFoundComponent} from './components/page-not-found.component';
     MoviesModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule.forRoot()
+    // MaterialModule.forRoot(),
+    //BsDropdownModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

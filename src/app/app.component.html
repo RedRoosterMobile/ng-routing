@@ -1,9 +1,43 @@
-<md-toolbar color="primary">
+<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">{{title}}</a>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item" [ngClass]="{'active': router.url === '/characters' }">
+            <a class="nav-link" routerLink="/characters">Characters</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [ngClass]="{'active': router.url === '/movies'}" routerLink="/movies">Movies</a>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+    
+<div class="container-fluid">
+
+  <div class="alert alert-success" role="alert">
+    <strong>Well done!</strong> You successfully read this important alert message.
+  </div>
+  <div class="alert alert-info" role="alert">
+    <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+  </div>
+  <div class="alert alert-warning" role="alert">
+    <strong>Warning!</strong> Better check yourself, you're not looking too good.
+  </div>
+  <div class="alert alert-danger" role="alert">
+    <strong>Oh snap!</strong> Change a few things up and try submitting again.
+  </div>
+  <router-outlet></router-outlet>
+</div>
+
+<!--<md-toolbar color="primary">
   <span>{{title}}</span>
   <md-toolbar-row>
     <button md-raised-button color="accent" routerLink="/movies">Movies</button>
     <button md-raised-button color="accent" routerLink="/characters">Characters</button>
   </md-toolbar-row>
-</md-toolbar>
+</md-toolbar>-->
 
-<router-outlet></router-outlet>
